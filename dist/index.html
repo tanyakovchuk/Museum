@@ -35,7 +35,7 @@
               Розклад сьогодні:<br>
               <span class="headline__details-span">12:00 - 19:00</span>
             </p>
-            <a class="headline__details" href="https://goo.gl/maps/rGZrMhECpDEKXk6R7">
+            <a class="headline__details" href="https://goo.gl/maps/rGZrMhECpDEKXk6R7" target="_blank">
               Адреса:<br>
               <span class="headline__details-span-link">Київ, вул. М. Грушевського, 6</span>
             </a>
@@ -54,12 +54,12 @@
             </ul>
           </nav>
           <div class="headline__buttons">
-            <button class="headline__btn-buy">
+            <a class="headline__btn-buy" href="#events">
               Купити квиток
-            </button>
-            <button class="headline__btn-member">
+            </a>
+            <a class="headline__btn-member" href="#visit">
               Стати членом
-            </button>
+            </a>
           </div>
         </div>
         <div class="headline__img">
@@ -79,9 +79,9 @@
           <p class="preview__details">
             Внесок українських митців у світову культуру 19-20&nbspст.
           </p>
-          <button class="preview__btn">
+          <a class="preview__btn" href="#eventsXX">
             Купити квиток
-          </button>
+          </a>
           <div class="preview__date2">
             10.08 - 10.10<hr class="preview__date2-line">
           </div>
@@ -127,7 +127,7 @@
           </div>
         </section>
 
-        <section class="working2">
+        <section class="working2" id="eventsXX">
           <div class="working2__event">
             <p class="working2__status">
               Діє постійно
@@ -249,9 +249,9 @@
           <p class="visit__subtitle">
             Оберіть зручний день, зареєструйтесь на події, що цікавлять, купіть квиток заздалегідь, щоб ніщо не завадило вам насолоджуватись мистецтвом
           </p>
-          <button class="visit__btn">
+          <a class="visit__btn" href="#events">
             Почати
-          </button>
+          </a>
         </div>
       </section>
 
@@ -313,9 +313,9 @@
                 Першими дізнавайтесь про новини музею та розіграші, отримуйте запрошення на події та читайте статті від кураторів
               </p>
             </div>
-            <form class="subscribe__form" action="#" method="GET">
+            <form class="subscribe__form" action="#" method="POST">
               <input class="subscribe__form-input" type="email" placeholder="e-mail" required="">
-              <input class="subscribe__form-submit" type="submit" value="">
+              <button class="subscribe__form-submit" type="submit"></button>
             </form>
           </div>
         </div>
@@ -330,7 +330,7 @@
             <h4 class="footer__title">
               Контакти
             </h4>
-            <a href="https://goo.gl/maps/rGZrMhECpDEKXk6R7" class="footer__text-link">
+            <a href="https://goo.gl/maps/rGZrMhECpDEKXk6R7" class="footer__text-link" target="_blank">
               Київ,<br>
               вул. М. Грушевського, 6
             </a>
@@ -342,10 +342,10 @@
               info@namu.kiev.ua
             </a>
             <div class="footer__networks">
-              <a href="https://www.facebook.com/" class="footer__networks-facebook"></a>
-              <a href="https://twitter.com/" class="footer__networks-twitter"></a>
-              <a href="https://telegram.org/" class="footer__networks-telegram"></a>
-              <a href="https://www.instagram.com/" class="footer__networks-instagram"></a>
+              <a href="https://www.facebook.com/" class="footer__networks-facebook" target="_blank"></a>
+              <a href="https://twitter.com/" class="footer__networks-twitter" target="_blank"></a>
+              <a href="https://telegram.org/" class="footer__networks-telegram" target="_blank"></a>
+              <a href="https://www.instagram.com/" class="footer__networks-instagram" target="_blank"></a>
             </div>
           </div>
           <div class="footer__segment">
@@ -355,9 +355,9 @@
             <p class="footer__text">
               пн <span class="footer__text-span2"> вихідний</span><br>
               вт <span class="footer__text-span2"> вихідний</span><br>
-              ср<span class="footer__text-span2"> 10:00 - 17:00</span><br>
-              чт<span class="footer__text-span2"> 10:00 - 17:00</span><br>
-              пт<span class="footer__text-span2"> 12:00 - 19:00</span><br>
+              ср <span class="footer__text-span2"> 10:00 - 17:00</span><br>
+              чт <span class="footer__text-span2"> 10:00 - 17:00</span><br>
+              пт <span class="footer__text-span2"> 12:00 - 19:00</span><br>
               сб <span class="footer__text-span2"> 11:00 - 18:00</span><br>
               нд <span class="footer__text-span2"> 10:00 - 17:00</span><br>
             </p>
@@ -366,19 +366,19 @@
             <h4 class="footer__title">
               Членські програми
             </h4>
-            <a href="#" class="footer__text-link">Зробити разовий внесок</a>
-            <a href="#" class="footer__text-link">Індивідуальна</a>
-            <a href="#" class="footer__text-link">Корпоративна</a>
+            <a href="#visit" class="footer__text-link">Зробити разовий внесок</a>
+            <a href="#visit" class="footer__text-link">Індивідуальна</a>
+            <a href="#visit" class="footer__text-link">Корпоративна</a>
           </div>
           <div class="footer__segment">
             <h4 class="footer__title">
               Про нас
             </h4>
-            <a href="#" class="footer__text-link">Історія</a>
-            <a href="#" class="footer__text-link">Обличчя музею</a>
-            <a href="#" class="footer__text-link">Партнери</a>
-            <a href="#" class="footer__text-link">Вакансії</a>
-            <a href="#" class="footer__text-link">Новини</a>
+            <a href="#collection" class="footer__text-link">Історія</a>
+            <a href="#collection" class="footer__text-link">Обличчя музею</a>
+            <a href="#collection" class="footer__text-link">Партнери</a>
+            <a href="#collection" class="footer__text-link">Вакансії</a>
+            <a href="#collection" class="footer__text-link">Новини</a>
           </div>
         </div>
       </div>

@@ -45,12 +45,14 @@
 }
 
 %orange-btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
   width: 260px;
   height: 60px;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
-  line-height: 16px;
-  text-align: center;
+  line-height: 60px;
   background-color: $mainColor;
   color: #fff;
   border: none;
